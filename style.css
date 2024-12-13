@@ -17,3 +17,21 @@ button:hover{
     border-width: 7.5px;
     font-size: 15px;
 }
+a{
+    color: lightgray;
+    transition: font-size ease-in-out 0.1s;
+}
+a:hover{
+    font-size: 17.5px;
+}
+.stuff{
+    position: absolute;
+    top: 5px;
+    z-index: 1;
+    justify-content: left;
+    text-align: left;
+}
+.home{
+    position: absolute;
+    top: 5px;
+}
