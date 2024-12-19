@@ -14,8 +14,7 @@ button{
 
 }
 button:hover{
-    border-width: 2.5px;
-    font-size: 15px;
+    font-size: 16px;
     text-decoration:underline;
 }
 a{
@@ -40,5 +39,12 @@ a:hover{
 .home{
     position: absolute;
     top: 5px;
+    transition: border-radius ease-in-out 0.1s, background-color ease-in-out 0.1s;
+    height: 40px;
+}
+.home:hover{
+    background-color: white;
+    border-radius: 10%;
+    
 }
 
