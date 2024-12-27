@@ -4,12 +4,28 @@ body{
     color:darkgray;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+#game{
+    border-width: 1px;
+    border-radius: 5%;
+    background-color: gray;
+    border-color: black;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    width:250px;
+    transition: ease-in-out 0.1s;
+}
+#game:hover{
+    font-size: 16px;
+    text-decoration:underline;
+    width: 400px;
+    border-width: 5px;
+}
 button{
     border-width: 1px;
     border-radius: 5%;
     background-color: gray;
     border-color: black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    width:250px;
     transition: border-width ease-in-out 0.1s,font-size ease-in-out 0.1s;
 
 }
@@ -30,10 +46,10 @@ a:hover{
     z-index: 1;
     justify-content: left;
     text-align: left;
-    background-color: #151515;
+
     border: #101010;
     border-width: 10px;
-    height: 690px;
+    height: 1060px;
     width: 65px;
 }
 .home{
