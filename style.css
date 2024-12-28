@@ -19,7 +19,7 @@ body{
     width: 400px;
     border-width: 5px;
 }
-.secret{
+#secret{
     z-index: 1;
     justify-content: right;
     text-align: right;
@@ -29,7 +29,7 @@ body{
     position: right;
     transition: opacity ease-in-out 0.1s;
 }
-.secret:hover{
+#secret:hover{
     opacity: 100%;
 }
 button{
