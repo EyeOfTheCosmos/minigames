@@ -12,6 +12,7 @@ body{
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     width:300px;
     transition: ease-in-out 0.1s;
+    
 }
 #game:hover{
     font-size: 16px;
